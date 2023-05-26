@@ -27,7 +27,7 @@ export default function Modal() {
                             <strong>{productInfo.price.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}</strong>
                             <p>{productInfo.description}</p>
 
-                            <Link href={""}>Veja mais detalhes do produto {">"}</Link>
+                            <Link href={""} onClick={changeModalStatus}>Veja mais detalhes do produto {">"}</Link>
 
                         </div>
                     </>
