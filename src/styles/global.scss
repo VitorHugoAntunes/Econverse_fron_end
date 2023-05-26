@@ -1,0 +1,36 @@
+:root {
+    --primary-pink: #F71963;
+    --primary-black: #3F3F40;
+    --secondary-black: #4E4E4E;
+    --white: #FFFFFF;
+    --gray-100: #9F9F9F;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+    font-family: Poppins, sans-serif;
+    overflow-x: hidden;
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: Poppins, sans-serif;
+}
+
+button,
+a {
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+        filter: brightness(0.8);
+    }
+}

@@ -1,0 +1,89 @@
+.modalBackground {
+    display: none;
+
+    &.open {
+        display: block;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.54);
+        top: 0;
+        left: 0;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .modalContent {
+            width: 48.063rem;
+            height: 18.704rem;
+            background: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5.438rem;
+            position: relative;
+
+            div {
+                margin-top: -3rem;
+
+                h4,
+                strong,
+                p,
+                a {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.25rem;
+                    line-height: 100%;
+                    letter-spacing: 0.05em;
+                    color: #041E50;
+                }
+
+                h4 {
+                    margin-bottom: 1.313rem;
+                }
+
+                strong {
+                    font-weight: 900;
+                }
+
+                p {
+                    font-size: 0.625rem;
+                    line-height: 150.5%;
+                    margin-top: 1.106rem;
+                    margin-bottom: 0.7rem;
+                    color: #222222;
+                }
+
+                a {
+                    font-size: 0.75rem;
+                    text-decoration: none;
+                    transition: 0.2s;
+                    line-height: 100%;
+
+                    &:hover {
+                        filter: brightness(0.8);
+                    }
+                }
+            }
+
+            button {
+                position: absolute;
+                top: 16.86px;
+                right: 31px;
+                display: flex;
+                padding: 0;
+                margin: 0;
+                background-color: transparent;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                cursor: pointer;
+                height: 1.2rem;
+                width: 1.2rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

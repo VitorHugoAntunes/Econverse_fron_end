@@ -1,0 +1,161 @@
+.productsSection {
+    position: relative;
+
+    h3 {
+        color: var(--primary-pink);
+        font-weight: 700;
+        font-size: 1.875rem;
+        line-height: 0.1rem;
+        text-align: center;
+        width: 71.125rem;
+        border-bottom: 1px solid #DEDEDE;
+
+        margin: 3.5rem auto 1.6rem auto;
+
+        span {
+            background: #fff;
+            padding: 0 2rem;
+        }
+    }
+
+    .categoriesLinks {
+        display: flex;
+        justify-content: center;
+
+        a:not(.seeAllLink) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1rem;
+            line-height: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #3B3B3B;
+            border: 1px solid #BDBDBD;
+            width: 13.219rem;
+            height: 2.5rem;
+
+            &:not(:first-child) {
+                border-left: none;
+            }
+
+            &:first-child {
+                color: var(--primary-pink);
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: 16px;
+            }
+        }
+
+        .seeAllLink {
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.938rem;
+            line-height: 22px;
+            color: var(--primary-black);
+            margin-bottom: 1rem;
+        }
+    }
+
+    .arrowLeft,
+    .arrowRight {
+        background: none;
+        border: none;
+        position: absolute;
+        top: 50%;
+        z-index: 999;
+    }
+
+    .arrowLeft {
+        margin-left: -55px;
+
+        img {
+            transform: rotate(180deg);
+        }
+    }
+
+    .arrowRight {
+        right: -55px;
+    }
+
+    &#lastChildMargin {
+        margin-bottom: 10.563rem;
+    }
+}
+
+#customSlider {
+    position: relative;
+    display: flex;
+    padding: 1.25rem 0.5rem 1rem;
+
+    #productCard {
+        display: flex;
+        flex-direction: column;
+        width: 16.875rem;
+        height: 31.25rem;
+        box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+        border-radius: 10px;
+        padding: 2rem 0.75rem 1rem;
+        cursor: pointer;
+
+        height: 31.25rem;
+
+        p {
+            margin-top: 1.188rem;
+            font-weight: 300;
+            font-size: 0.938rem;
+            line-height: 22px;
+            color: var(--primary-black);
+        }
+
+        span {
+            margin-top: 0.75rem;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 24px;
+            text-decoration-line: line-through;
+            color: #808080;
+        }
+
+        strong {
+            margin-top: 0.125rem;
+            font-weight: 700;
+            font-size: 1.25rem;
+            line-height: 30px;
+            color: var(--primary-black);
+        }
+
+        small,
+        pre {
+            font-weight: 400;
+            font-size: 0.75rem;
+            line-height: 18px;
+        }
+
+        small {
+            margin-top: 0.125rem;
+            color: var(--primary-black);
+        }
+
+        pre {
+            margin-top: 0.438rem;
+            font-family: Poppins, sans-serif;
+            color: var(--primary-pink);
+        }
+
+        button {
+            margin-top: 0.75rem;
+            width: 15.313rem;
+            height: 2.75rem;
+            background: var(--primary-pink);
+            color: var(--white);
+            border: none;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            line-height: 21px;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+:root{--primary-pink:#f71963;--primary-black:#3f3f40;--secondary-black:#4e4e4e;--white:#fff;--gray-100:#9f9f9f}*{box-sizing:border-box;margin:0;padding:0}body{background:var(--white);overflow-x:hidden}body,button,input,textarea{font-family:Poppins,sans-serif}a,button{cursor:pointer;transition:.2s}a:hover,button:hover{filter:brightness(.8)}
