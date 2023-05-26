@@ -2,7 +2,7 @@ import Image from "next/image"
 import styles from "./styles.module.scss"
 
 import checkIcon from '../../assets/topIcons/shield-check.png';
-import truckIcon from '../../assets/topIcons/truck.png';
+import truckIcon from '../../assets/topIcons/truck-icon.png';
 import creditCardIcon from '../../assets/topIcons/credit-card.png';
 import brandImage from '../../assets/headerIcons/brand.png';
 import searchIcon from '../../assets/headerIcons/search.png';
